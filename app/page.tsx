@@ -15,7 +15,7 @@ export default function Home() {
               <p>in online banking payments</p>
             </div>
           </header>
-          <ul className="grid grid-cols-5 gap-4">
+          <ul className="grid grid-cols-5 gap-6">
             {
               Data.map(data => (
                 <li key={data.title} className="flex flex-col rounded-md shadow-md space-y-3 justify-center items-center p-4 text-center bg-white">
@@ -30,7 +30,7 @@ export default function Home() {
           <div className="flex justify-between gap-12">
               <Image src={family} alt="family" width={300} height={300} />
               <div className="flex flex-col justify-center space-y-4 w-1/2">
-                <h2 className="text-xl font-semibold text-center">Unique Services</h2>
+                <h2 className="text-4xl font-semibold text-center">Unique Services</h2>
                 <ul className="grid grid-cols-2 gap-4">
                   {
                     uniqueService.map(service => (
