@@ -18,7 +18,7 @@ export default function Home() {
           <ul className="grid grid-cols-5 gap-4">
             {
               Data.map(data => (
-                <li key={data.title} className="flex flex-col rounded-md space-y-3 justify-center items-center p-4 text-center bg-white">
+                <li key={data.title} className="flex flex-col rounded-md shadow-md space-y-3 justify-center items-center p-4 text-center bg-white">
                   <Image src={data.number} alt="number 1" width={30} height={30} />
                   <h2 className="font-semibold">{data.title}</h2>
                   <Image src={data.icon} alt="icon" width={60} height={60} />
