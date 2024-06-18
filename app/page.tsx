@@ -30,7 +30,7 @@ export default function Home() {
           <div className="flex justify-between gap-12">
               <Image src={family} alt="family" width={300} height={300} />
               <div className="flex flex-col justify-center space-y-4 w-1/2">
-                <h2 className="text-4xl font-semibold text-center">Unique Services</h2>
+                <h2 className="text-3xl font-semibold text-center">Unique Services</h2>
                 <ul className="grid grid-cols-2 gap-4">
                   {
                     uniqueService.map(service => (
